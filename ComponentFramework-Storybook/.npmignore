@@ -1,0 +1,8 @@
+__tests__/
+scripts/
+.babelrc.js
+.editorconfig
+.eslintrc.js
+.gitignore
+.prettierrc
+yarn.lock
