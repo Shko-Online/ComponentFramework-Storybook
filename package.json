@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "This plugin for Storybook helps write stories for PCF components by using the @shko.online/componentframework-mock package",
   "scripts": {
-    "build": "node ../scripts/build.js",
-    "test": "echo \"No Tests Yet\""
+    "build": "npm run lint && build-npm-package",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-flow": "^7.18.6",
     "@emotion/babel-plugin": "^11.10.5",
+    "@shko.online/build-npm-package": "^0.1.1",
     "@storybook/react-docgen-typescript-plugin": "^1.0.1",
     "@types/babel__core": "^7.1.20",
     "@types/express": "^4.17.14",
@@ -50,7 +51,9 @@
     "@types/react-textarea-autosize": "^8.0.0",
     "@types/tapable": "1",
     "@types/webpack": "4",
-    "downlevel-dts": "^0.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
     "react": "17",
     "react-dom": "17",
     "typescript": "^4.9.3"
@@ -94,5 +97,5 @@
         "lib/ts3.4/*"
       ]
     }
-  }  
+  }
 }

@@ -1,3 +1,8 @@
+/*
+    Copyright (c) 2023 Betim Beja and Shko Online LLC
+    Licensed under the MIT license.
+*/
+
 import React, { FC } from 'react';
 import {
   ArgTypes,

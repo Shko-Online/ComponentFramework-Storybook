@@ -1,3 +1,8 @@
+/*
+    Copyright (c) 2023 Betim Beja and Shko Online LLC
+    Licensed under the MIT license.
+*/
+
 import React from 'react';
 import { addons, types } from '@storybook/addons';
 import { AddonPanel } from '@storybook/components';
